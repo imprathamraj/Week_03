@@ -1,6 +1,0 @@
-Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
-It is intended to let application developers Write Once and Run Anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
-Java was developed by James Gosling at Sun Microsystems Inc. in May 1995 and later acquired by Oracle Corporation and is widely used for developing applications for desktop, web, and mobile devices.
-
-é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü
-é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü é ñ ü
