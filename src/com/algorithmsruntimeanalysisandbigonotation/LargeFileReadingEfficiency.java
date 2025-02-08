@@ -21,7 +21,7 @@ InputStreamReader Time
 Expected Result:
 InputStreamReader is more efficient for large files.
 FileReader is preferable for text-based data.*/
-package com.algorithm_s_runtime_analysis_and_big_o_notation;
+package com.algorithmsruntimeanalysisandbigonotation;
 
 import java.io.*;
 
@@ -51,10 +51,15 @@ public class LargeFileReadingEfficiency {
         }
     }
     public static void main(String[] args) {
-        //Files
+        //Using 1MB File for three times as large files of 100MB and 500MB could not be uploaded on git
+
+        //File file_1_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\1mb-examplefile-com.txt");
+        //File file_100_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\100mb-examplefile-com.txt");
+        //File file_500_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\500mb-example-com.txt");
+
         File file_1_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\1mb-examplefile-com.txt");
-        File file_100_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\100mb-examplefile-com.txt");
-        File file_500_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\500mb-example-com.txt");
+        File file_100_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\1mb-examplefile-com.txt");
+        File file_500_MB = new File("C:\\Users\\HP\\OneDrive\\Desktop\\Day_06\\Day_06\\src\\com\\algorithm_s_runtime_analysis_and_big_o_notation\\1mb-examplefile-com.txt");
 
         File[] files = {file_1_MB, file_100_MB, file_500_MB};
 
@@ -75,7 +80,7 @@ public class LargeFileReadingEfficiency {
             usingInputStreamReader(files[i]);
             //End Time
             end =  System.nanoTime();
-            System.out.println("Using InputStreamReader - " + (end - start)/10000000);
+            System.out.println("Using InputStreamReader - " + (end - start)/100000000);
         }
     }
 }
