@@ -27,7 +27,7 @@ Expected Result:
 StringBuilder & StringBuffer are much more efficient than String.
 Use StringBuilder for single-threaded operations and StringBuffer for multi-threaded.*/
 
-package com.algorithm_s_runtime_analysis_and_big_o_notation;
+package com.algorithmsruntimeanalysisandbigonotation;
 
 public class StringConcatenationPerformance {
     //Method to concat using String
