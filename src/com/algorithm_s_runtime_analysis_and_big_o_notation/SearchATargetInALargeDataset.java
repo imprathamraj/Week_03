@@ -84,7 +84,6 @@ public class SearchATargetInALargeDataset {
             long end = System.nanoTime();
             System.out.println("Time: " + (end - start)/1000000 + " ns");
 
-
             //Output for Binary Search
             start = System.nanoTime();
             System.out.println("--- Binary Search Algorithm ---");
