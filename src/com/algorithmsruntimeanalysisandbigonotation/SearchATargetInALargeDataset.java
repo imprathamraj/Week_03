@@ -62,7 +62,7 @@ public class SearchATargetInALargeDataset {
         }
     }
     public static void main(String[] args) {
-        main.com.algorithmsruntimeanalysisandbigonotation.SearchATargetInALargeDataset solution = new main.com.algorithmsruntimeanalysisandbigonotation.SearchATargetInALargeDataset();
+        SearchATargetInALargeDataset solution = new SearchATargetInALargeDataset();
         //3 different array with different size
         int[] array = {1000, 10000, 1000000};
         Random randomValue = new Random();
