@@ -21,7 +21,7 @@ Binary Search (O(log N))
 Expected Result:
 Binary Search performs much better for large datasets, provided data is sorted.
 */
-package com.algorithm_s_runtime_analysis_and_big_o_notation;
+package com.algorithmsruntimeanalysisandbigonotation;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -62,7 +62,7 @@ public class SearchATargetInALargeDataset {
         }
     }
     public static void main(String[] args) {
-        SearchATargetInALargeDataset solution = new SearchATargetInALargeDataset();
+        main.com.algorithmsruntimeanalysisandbigonotation.SearchATargetInALargeDataset solution = new main.com.algorithmsruntimeanalysisandbigonotation.SearchATargetInALargeDataset();
         //3 different array with different size
         int[] array = {1000, 10000, 1000000};
         Random randomValue = new Random();
