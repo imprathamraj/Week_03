@@ -35,7 +35,7 @@ Unfeasible (>1hr)
 Expected Result:
 Recursive approach is infeasible for large values of N due to exponential growth.
 The iterative approach is significantly faster and memory-efficient.*/
-package com.algorithm_s_runtime_analysis_and_big_o_notation;
+package com.algorithmsruntimeanalysisandbigonotation;
 
 public class RecursiveVsIterativeFibonacciComputation {
     //Recursive method
